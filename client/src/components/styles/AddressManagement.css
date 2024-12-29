@@ -1,0 +1,46 @@
+.address-management {
+    padding: 20px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.address-list {
+    margin-top: 20px;
+}
+
+.address-actions button:nth-child(2) {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.address-actions button:nth-child(2):hover {
+    background-color: #e0a800;
+}
+
+.address-actions button:nth-child(3) {
+    background-color: #dc3545;
+}
+
+.address-actions button:nth-child(3):hover {
+    background-color: #c82333;
+}
+
+@media (max-width: 768px) {
+    .address-management {
+        padding: 10px;
+    }
+
+    .address-card {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .address-actions button {
+        padding: 5px 8px;
+        font-size: 0.8rem;
+    }
+}

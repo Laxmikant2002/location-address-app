@@ -1,0 +1,51 @@
+.address-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.address-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.address-details {
+    margin-bottom: 10px;
+}
+
+.address-actions button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.select-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.select-btn:hover {
+    background-color: #218838;
+}
