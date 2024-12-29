@@ -16,23 +16,27 @@ This project is a Location/Address flow application that allows users to select 
    cd location-address-app
    ```
 2. Install server dependencies:
-   ```npm install
+   ```
+   npm install
    ```
 3. Install client dependencies:
-   ```cd client
+   ```
+      cd client
       npm install
       cd ..
    ```
 ## Configuration
 Create a .env file in the root directory and add your MongoDB URI and Google Maps API key:
 
-   ```MONGO_URI=your_mongodb_uri
+   ```
+      MONGO_URI=your_mongodb_uri
       REACT_APP_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
    ```
 ## Running the Application
 
 1. Start the server:
-   ```npm run dev
+   ```
+   npm run dev
    ```
 2. The application should now be running on:
    Client: http://localhost:3000
