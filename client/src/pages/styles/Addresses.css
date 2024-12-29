@@ -1,0 +1,12 @@
+.addresses {
+    padding: 20px;
+}
+
+.addresses h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.address-list {
+    margin-top: 20px;
+}
